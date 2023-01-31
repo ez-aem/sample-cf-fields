@@ -1,0 +1,3 @@
+{
+  "sling.filter.pattern": "/content/sample-cf-fields/.*?/(category-page|product-page)"
+}

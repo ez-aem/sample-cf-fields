@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        cq:conf="/conf/sample-fields"
+        jcr:lastModified="{Date}2023-01-30T10:08:12.806Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Sample-Fields"
+        metadataSchema="System Default"
+        postProcessWF="System Default"
+        processingProfile="System Default"
+        sourcing="false"/>
+</jcr:root>

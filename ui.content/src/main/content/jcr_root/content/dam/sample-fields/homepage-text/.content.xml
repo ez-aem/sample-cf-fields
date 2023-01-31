@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="79e760c7-b203-433d-aa90-1e26299b1d43">
+    <jcr:content
+        cq:name="homepage-text"
+        cq:parentPath="/content/dam/sample-fields"
+        dam:processingId="02464aca-a606-411b-a0c1-301221edfd9e"
+        dam:processingRenditions="[cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.features.json]"
+        dam:processingRequestedDate="{Date}2023-01-31T08:06:12.922Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-01-31T08:32:13.503Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Homepage Text"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-31T08:06:12.902Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                eMail_x0040_LastModified="{Date}2023-01-31T08:05:26.962Z"
+                multiTextArea_x0040_ContentType="text/html"
+                multiTextArea_x0040_LastModified="{Date}2023-01-31T08:17:37.150Z"
+                multiTextFields_x0040_LastModified="{Date}2023-01-31T08:05:26.962Z"
+                placeholder_x0040_LastModified="{Date}2023-01-31T08:05:26.962Z"
+                plainTextArea_x0040_ContentType="text/plain"
+                plainTextArea_x0040_LastModified="{Date}2023-01-31T08:17:37.151Z"
+                regexTest="Testa"
+                regexTest_x0040_LastModified="{Date}2023-01-31T08:32:13.503Z"
+                textArea_x0040_ContentType="text/html"
+                textArea_x0040_LastModified="{Date}2023-01-31T08:17:37.150Z"
+                textField_x0040_LastModified="{Date}2023-01-31T08:05:26.962Z"
+                url_x0040_LastModified="{Date}2023-01-31T08:05:26.962Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="e2d97654-2beb-4326-a1d8-a8cf9e77d3cb"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_regexTest="Testa"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

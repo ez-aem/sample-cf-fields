@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:description="\0"
+    jcr:lastModified="{Date}2023-01-31T12:46:13.899Z"
+    jcr:lastModifiedBy="pz@headwire.com"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-2023.1.10675.20230113T110236Z, aem-reference-demos-2021.9.27.1, cif-2022.9.30.00"
+    group="sampleFields"
+    lastUnwrapped="{Date}2023-01-31T12:46:13.899Z"
+    lastUnwrappedBy="pz@headwire.com"
+    lastWrapped="{Date}2023-01-31T12:46:13.899Z"
+    lastWrappedBy="pz@headwire.com"
+    name="Sample Fields"
+    version="\0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            propertyRules="[]"
+            root="/conf/sample-fields"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            propertyRules="[]"
+            root="/content/dam/sample-fields"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            propertyRules="[]"
+            root="/content/cq:graphql/sample-fields"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Id: sampleFields:Sample Fields
+Content-Package-Roots: /content/dam/sample-fields,/content/cq:graphql/sa
+ mple-fields,/conf/sample-fields
+Content-Package-Type: content
+

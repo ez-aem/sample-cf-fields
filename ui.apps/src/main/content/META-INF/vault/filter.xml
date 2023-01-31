@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/sample-cf-fields/clientlibs"/>
+    <filter root="/apps/sample-cf-fields/components"/>
+    <filter root="/apps/sample-cf-fields/i18n"/>
+</workspaceFilter>

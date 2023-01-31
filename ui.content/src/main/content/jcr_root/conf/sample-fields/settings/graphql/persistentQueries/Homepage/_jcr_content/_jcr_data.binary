@@ -1,0 +1,94 @@
+query pageByPath {
+  pageByPath(_path: "/content/dam/sample-fields/homepage") {
+    item {
+      _path
+      pageContent {
+        ... on FragmentReferenceModel {
+          _path
+          _variation
+          _model {
+            _path
+            title
+          }
+          singleFragmentReference {
+            ... on TextFieldsModel {
+              _path
+              textField
+              multiTextFields
+            }
+            ... on SelectionsModel {
+              _path
+              numberField
+              multiNumberField
+              dateAndTimeField
+              dateField
+              timeField
+              dropdownField
+              checkboxField
+              radioButtons
+            }
+            ... on ContentReferenceModel {
+              _path
+              singleContentReference {
+                ... on PageRef {
+                  _path
+                }
+                ... on ImageRef {
+                  _path
+                  mimeType
+                  width
+                  height
+                }
+                ... on MultimediaRef {
+                  _path
+                  format
+                }
+                ... on ArchiveRef {
+                  _path
+                  format
+                }
+                ... on DocumentRef {
+                  _path
+                  format
+                }
+              }
+              multiContentReference {
+                ... on PageRef {
+                  _path
+                }
+                ... on ImageRef {
+                  _path
+                  mimeType
+                  width
+                  height
+                }
+                ... on MultimediaRef {
+                  _path
+                  format
+                }
+                ... on ArchiveRef {
+                  _path
+                  format
+                }
+                ... on DocumentRef {
+                  _path
+                  format
+                }
+              }
+            }
+            ... on FragmentReferenceModel {
+              _path
+              singleFragmentReference {
+                __typename
+              }
+            }
+            ... on JsonObjectModel {
+              _path
+              jsonField
+            }
+          }
+        }
+      }
+    }
+  }
+}
