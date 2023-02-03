@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="85d27e69-f925-4a57-ae1a-ee6cd56a78a3">
+    <jcr:content
+        cq:name="sample-product-reference"
+        cq:parentPath="/content/dam/sample-fields/en/product-references"
+        dam:processingId="6d555c54-9153-4000-b12e-b45c64f34d81"
+        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cqdam.machine.metadata.colors.json,cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png]"
+        dam:processingRequestedDate="{Date}2023-02-03T10:05:10.716Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T10:05:10.701Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sample Product Reference"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T10:05:10.701Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/product-reference"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                multiProductReference="[VA12-SI-NA,VA14-SI-NA,VA23]"
+                multiProductReference_x0040_LastModified="{Date}2023-02-03T10:05:10.550Z"
+                singleProductReference="VDL01"
+                singleProductReference_x0040_LastModified="{Date}2023-02-03T10:05:10.550Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="a278098a-3cbe-4261-9d29-44def40aee1e"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/product-reference"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_singleProductReference="VDL01"
+                stringArray_x0040_multiProductReference="[VA12-SI-NA,VA14-SI-NA,VA23]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

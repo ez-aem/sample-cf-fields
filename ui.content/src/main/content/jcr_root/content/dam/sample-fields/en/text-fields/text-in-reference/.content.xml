@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="de754141-b58c-489a-85c4-850052054777">
+    <jcr:content
+        cq:name="text-in-reference"
+        cq:parentPath="/content/dam/sample-fields/en/text-fields"
+        dam:processingId="66f58500-25ab-4dda-9e64-6f40f356ed24"
+        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.text.txt,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.metadata.xml,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2023-02-03T07:34:47.764Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T07:34:47.748Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Text in Reference"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T07:34:47.748Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                eMail_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                multiTextArea_x0040_ContentType="text/html"
+                multiTextArea_x0040_LastModified="{Date}2023-02-03T07:34:47.573Z"
+                multiTextFields_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                placeholder_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                plainTextArea_x0040_ContentType="text/plain"
+                plainTextArea_x0040_LastModified="{Date}2023-02-03T07:34:47.573Z"
+                regexTest_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                requiredString="From Reference"
+                requiredString_x0040_LastModified="{Date}2023-02-03T07:34:47.572Z"
+                textArea_x0040_ContentType="text/html"
+                textArea_x0040_LastModified="{Date}2023-02-03T07:34:47.572Z"
+                textField="From Reference"
+                textField_x0040_LastModified="{Date}2023-02-03T07:34:47.570Z"
+                uniqueString="From Reference"
+                uniqueString_x0040_LastModified="{Date}2023-02-03T07:34:47.575Z"
+                url_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="50319f38-7363-4eeb-afbc-d686289a9983"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_requiredString="From Reference"
+                string_x0040_textField="From Reference"
+                string_x0040_uniqueString="From Reference"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

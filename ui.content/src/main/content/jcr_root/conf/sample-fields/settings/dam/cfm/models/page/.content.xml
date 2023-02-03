@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2023-01-30T10:06:10.036Z"
+        cq:lastModified="{Date}2023-01-31T14:24:57.703Z"
         cq:lastModifiedBy="pz@headwire.com"
         cq:scaffolding="/conf/sample-fields/settings/dam/cfm/models/page/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -24,21 +24,21 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2023-01-30T10:06:10.036Z"
+                    jcr:lastModified="{Date}2023-01-31T14:24:57.703Z"
                     jcr:lastModifiedBy="pz@headwire.com"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="21">
+                        maxGeneratedOrder="20">
                         <_x0031_675073138325
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
                             allowNew="{Boolean}true"
                             fieldLabel="Page Content"
                             filter="hierarchy"
-                            fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/content-reference,/conf/sample-fields/settings/dam/cfm/models/fragment-reference,/conf/sample-fields/settings/dam/cfm/models/json-object,/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields]"
-                            listOrder="21"
+                            fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/content-reference,/conf/sample-fields/settings/dam/cfm/models/fragment-reference,/conf/sample-fields/settings/dam/cfm/models/json-object,/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields,/conf/sample-fields/settings/dam/cfm/models/category-reference,/conf/sample-fields/settings/dam/cfm/models/product-reference,/conf/sample-fields/settings/dam/cfm/models/tags]"
+                            listOrder="9"
                             metaType="fragment-reference"
                             name="pageContent"
                             nameSuffix="contentReference"
@@ -49,10 +49,9 @@
                             <field
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                                fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/content-reference,/conf/sample-fields/settings/dam/cfm/models/fragment-reference,/conf/sample-fields/settings/dam/cfm/models/json-object,/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields]"
+                                fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/content-reference,/conf/sample-fields/settings/dam/cfm/models/fragment-reference,/conf/sample-fields/settings/dam/cfm/models/json-object,/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields,/conf/sample-fields/settings/dam/cfm/models/category-reference,/conf/sample-fields/settings/dam/cfm/models/product-reference,/conf/sample-fields/settings/dam/cfm/models/tags]"
                                 name="pageContent"
-                                renderReadOnly="false"
-                                rootPath="/content/dam/sample-fields">
+                                renderReadOnly="false">
                                 <granite:data jcr:primaryType="nt:unstructured"/>
                             </field>
                             <granite:data jcr:primaryType="nt:unstructured"/>

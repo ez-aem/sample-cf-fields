@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a1b66b88-5aff-4336-a3f8-29c0ccd97f0a">
+    <jcr:content
+        cq:name="homepage-content-reference"
+        cq:parentPath="/content/dam/sample-fields/en/content-references"
+        dam:processingId="ca897a6e-8d84-412a-9b17-499e2e515124"
+        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.text.txt,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg]"
+        dam:processingRequestedDate="{Date}2023-02-03T07:59:40.473Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T07:59:40.457Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Homepage Content Reference"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T07:59:40.457Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/content-reference"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                archive_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                audio_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                image_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                markup_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                multiContentReference_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                pdf_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                placeholder_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                plainText_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                presentation_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                richTextEditor_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                singleContentReference="/content/dam/sample-fields/assets/sky.jpg"
+                singleContentReference_x0040_LastModified="{Date}2023-02-03T07:59:40.296Z"
+                spreadsheet_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                video_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2c622d64-1a38-4b5c-bd71-ab8b16acb94b"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/content-reference"
+                _x0040_stringArray_x0040_variations="[]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

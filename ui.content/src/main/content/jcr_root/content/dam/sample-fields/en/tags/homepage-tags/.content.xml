@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c078992a-11a9-4087-b174-63d6fdf862c2">
+    <jcr:content
+        cq:name="homepage-tags"
+        cq:parentPath="/content/dam/sample-fields"
+        dam:processingId="d83e9981-661a-4ca2-86ce-9bf399b8b7b6"
+        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2023-02-01T13:23:39.028Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-01T13:23:39.017Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Homepage Tags"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-01T13:23:39.017Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/tags"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                cq:tags="[experience-fragments:variation/facebook,do-not-translate,experience-fragments:variation/screens,experience-fragments:variation/web,experience-fragments:variation/pinterest]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                singleTag="[do-not-translate]"
+                singleTag_x0040_LastModified="{Date}2023-02-01T13:23:38.866Z"
+                tags="[experience-fragments:variation/web,experience-fragments:variation/facebook,experience-fragments:variation/pinterest,experience-fragments:variation/screens]"
+                tags_x0040_LastModified="{Date}2023-02-01T13:23:38.867Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="f8431a02-bc19-40b3-af2a-9403b1987667"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/tags"
+                _x0040_stringArray_x0040_variations="[]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ae463776-29b8-4009-8200-14157c83551c">
+    <jcr:content
+        cq:name="homepage"
+        cq:parentPath="/content/dam/sample-fields/en/pages"
+        dam:processingId="dd2a4ddd-a810-466d-8416-05edde4fb3e9"
+        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cqdam.text.txt,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cqdam.metadata.xml,cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg]"
+        dam:processingRequestedDate="{Date}2023-02-03T08:05:42.760Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T08:05:42.746Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Homepage"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T08:05:42.746Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/page"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                pageContent="[/content/dam/sample-fields/en/tags/homepage-tags,/content/dam/sample-fields/en/text-fields/homepage-text,/content/dam/sample-fields/en/selections/homepage-selections,/content/dam/sample-fields/en/json-objects/homepage-json]"
+                pageContent_x0040_LastModified="{Date}2023-02-03T08:05:42.577Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2288c804-c6ed-4d49-bb4e-fe7cd2e3afe1"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/page"
+                _x0040_stringArray_x0040_variations="[]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

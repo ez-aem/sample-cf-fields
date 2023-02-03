@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="73422d5c-b884-4227-ba19-66ad38e208ed">
+    <jcr:content
+        cq:name="content-selections"
+        cq:parentPath="/content/dam/sample-fields/en/selections"
+        dam:processingId="9deb893d-d5eb-4804-9ce7-26572d12c499"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.319.319.png,cq5dam.preview.pdf,cqdam.metadata.xml,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.zoom.2048.2048.jpeg]"
+        dam:processingRequestedDate="{Date}2023-02-03T12:18:35.204Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T12:18:35.184Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Content Selections"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T12:18:35.184Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/selections"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                betweenTenAndFifteen_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                checkboxField_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                dateAndTimeField_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                dateField_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                dropdownField_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                fraction="{Double}2.0"
+                fraction_x0040_LastModified="{Date}2023-02-03T12:18:35.013Z"
+                integer="{Long}1"
+                integer_x0040_LastModified="{Date}2023-02-03T12:18:35.014Z"
+                lessThanTen_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                moreThanOne_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                multiNumberField="{Double}[6.0,5.0,4.0]"
+                multiNumberField_x0040_LastModified="{Date}2023-02-03T12:18:35.015Z"
+                numberField="{Double}3.0"
+                numberField_x0040_LastModified="{Date}2023-02-03T12:18:35.011Z"
+                one="{Boolean}true"
+                one_x0040_LastModified="{Date}2023-02-03T12:18:35.015Z"
+                placeholder_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                radioButtons_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                timeField_x0040_LastModified="{Date}2023-02-03T12:18:02.334Z"
+                two="{Boolean}true"
+                two_x0040_LastModified="{Date}2023-02-03T12:18:35.016Z"
+                uniqueDropdown="option3"
+                uniqueDropdown_x0040_LastModified="{Date}2023-02-03T12:18:35.016Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="8e29ec51-8cb4-4c55-918b-a960b28299c0"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/selections"
+                _x0040_stringArray_x0040_variations="[]"
+                boolean_x0040_one="{Boolean}true"
+                boolean_x0040_two="{Boolean}true"
+                double_x0040_fraction="{Double}2.0"
+                double_x0040_numberField="{Double}3.0"
+                doubleArray_x0040_multiNumberField="{Double}[6.0,5.0,4.0]"
+                long_x0040_integer="{Long}1"
+                string_x0040_uniqueDropdown="option3"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

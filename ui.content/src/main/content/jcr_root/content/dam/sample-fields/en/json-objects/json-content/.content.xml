@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="98cb7d18-4f0c-444f-a04d-f86675f34152">
+    <jcr:content
+        cq:name="json-content"
+        cq:parentPath="/content/dam/sample-fields/en/json-objects"
+        dam:processingId="ff81fe09-3b37-40fa-a594-0fc82f73bb6a"
+        dam:processingRenditions="[cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cqdam.metadata.xml,cqdam.text.txt,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json]"
+        dam:processingRequestedDate="{Date}2023-02-03T10:40:24.919Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T10:40:24.908Z"
+        jcr:lastModifiedBy="pz@headwire.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="JSON Content"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T10:40:24.908Z">
+        <data
+            cq:model="/conf/sample-fields/settings/dam/cfm/models/json-object"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                jsonField="\{&#xa;  &quot;name&quot;: &quot;John&quot;,&#xa;  &quot;age&quot;: 31,&#xa;  &quot;bio&quot;: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tortor pretium viverra suspendisse potenti nullam ac. Enim nec dui nunc mattis enim ut tellus elementum. Imperdiet nulla malesuada pellentesque elit eget. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Velit egestas dui id ornare arcu odio. Tincidunt vitae semper quis lectus nulla at. In massa tempor nec feugiat nisl pretium fusce id. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Mi in nulla posuere sollicitudin. Nunc consequat interdum varius sit amet. At elementum eu facilisis sed odio. Tincidunt eget nullam non nisi est. Volutpat blandit aliquam etiam erat velit.&quot;&#xa;}"
+                jsonField_x0040_LastModified="{Date}2023-02-03T10:40:24.759Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="85f5185c-7ef7-49f2-a988-815edce7cf7b"
+                _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/json-object"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_jsonField="\{&#xa;  &quot;name&quot;: &quot;John&quot;,&#xa;  &quot;age&quot;: 31,&#xa;  &quot;bio&quot;: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tortor pretium viverra suspendisse potenti nullam ac. Enim nec dui nunc mattis enim ut tellus elementum. Imperdiet nulla malesuada pellentesque elit eget. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Velit egestas dui id ornare arcu odio. Tincidunt vitae semper quis lectus nulla at. In massa tempor nec feugiat nisl pretium fusce id. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Mi in nulla posuere sollicitudin. Nunc consequat interdum varius sit amet. At elementum eu facilisis sed odio. Tincidunt eget nullam non nisi est. Volutpat blandit aliquam etiam erat velit.&quot;&#xa;}"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

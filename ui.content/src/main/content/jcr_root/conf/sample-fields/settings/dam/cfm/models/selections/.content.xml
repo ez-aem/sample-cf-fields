@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2023-01-31T10:36:21.137Z"
+        cq:lastModified="{Date}2023-02-01T09:46:16.332Z"
         cq:lastModifiedBy="pz@headwire.com"
         cq:scaffolding="/conf/sample-fields/settings/dam/cfm/models/selections/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -24,13 +24,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2023-01-31T10:36:21.137Z"
+                    jcr:lastModified="{Date}2023-02-01T09:46:16.332Z"
                     jcr:lastModifiedBy="pz@headwire.com"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
+                        maxGeneratedOrder="21">
                         <_x0031_675071637525
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
@@ -363,6 +363,38 @@
                                 variant="default"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_675071889235>
+                        <_x0031_675244658186
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            emptyOption="{Boolean}true"
+                            fieldLabel="Unique Dropdown"
+                            listOrder="21"
+                            metaType="enumeration"
+                            name="uniqueDropdown"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            unique="true"
+                            valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Option 1"
+                                    fieldValue="option1"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Option 2"
+                                    fieldValue="option2"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Option 3"
+                                    fieldValue="option3"/>
+                            </optionsmultifield>
+                            <datasource
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
+                                variant="default"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_675244658186>
                     </items>
                 </content>
             </cq:dialog>

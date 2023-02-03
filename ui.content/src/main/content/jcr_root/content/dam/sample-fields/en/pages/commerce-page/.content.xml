@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ae463776-29b8-4009-8200-14157c83551c">
+    jcr:uuid="b1fd0f42-9dde-43b0-b0b0-160e65baaa52">
     <jcr:content
-        dam:processingId="ba1513d5-0d5c-4424-a8f9-2901e7e5398b"
-        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cq5dam.preview.pdf,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cqdam.text.txt,cq5dam.zoom.2048.2048.jpeg]"
-        dam:processingRequestedDate="{Date}2023-01-30T10:12:05.275Z"
+        cq:name="commerce-page"
+        cq:parentPath="/content/dam/sample-fields/en/pages"
+        dam:processingId="34faacd9-60e5-4c31-8322-6f10e31cc4ff"
+        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.web.1280.1280.jpeg,cq5dam.preview.pdf,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg]"
+        dam:processingRequestedDate="{Date}2023-02-03T10:22:20.330Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-02-03T10:22:20.318Z"
+        jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="Homepage"
-        contentFragment="{Boolean}true">
+        jcr:title="Commerce Page"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-03T10:22:20.318Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/page"
             jcr:primaryType="nt:unstructured"
@@ -19,13 +25,14 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                pageContent_x0040_LastModified="{Date}2023-01-30T10:12:05.210Z"/>
+                pageContent="[/content/dam/sample-fields/en/category-references/category-reference,/content/dam/sample-fields/en/product-references/sample-product-reference]"
+                pageContent_x0040_LastModified="{Date}2023-02-03T10:22:20.130Z"/>
         </data>
         <indexedData jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[dam:IndexedFragmentData]"
                 jcr:primaryType="nt:unstructured"
-                jcr:uuid="2288c804-c6ed-4d49-bb4e-fe7cd2e3afe1"
+                jcr:uuid="5f1d1db0-2b4d-4f6c-88f0-7c1f27bc1470"
                 _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/page"
                 _x0040_stringArray_x0040_variations="[]"/>
         </indexedData>

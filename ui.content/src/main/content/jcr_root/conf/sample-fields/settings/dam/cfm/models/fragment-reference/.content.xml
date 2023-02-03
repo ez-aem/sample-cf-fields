@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2023-01-30T10:03:27.825Z"
+        cq:lastModified="{Date}2023-02-01T09:46:44.262Z"
         cq:lastModifiedBy="pz@headwire.com"
         cq:scaffolding="/conf/sample-fields/settings/dam/cfm/models/fragment-reference/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -24,13 +24,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2023-01-30T10:03:27.825Z"
+                    jcr:lastModified="{Date}2023-02-01T09:46:44.262Z"
                     jcr:lastModifiedBy="pz@headwire.com"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="22">
+                        maxGeneratedOrder="20">
                         <_x0031_675071960500
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
@@ -38,7 +38,7 @@
                             fieldLabel="Single Fragment Reference"
                             filter="hierarchy"
                             fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields]"
-                            listOrder="21"
+                            listOrder="9"
                             metaType="fragment-reference"
                             name="singleFragmentReference"
                             nameSuffix="contentReference"
@@ -58,7 +58,7 @@
                             fieldLabel="Multi Fragment reference"
                             filter="hierarchy"
                             fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields]"
-                            listOrder="22"
+                            listOrder="9"
                             metaType="fragment-reference"
                             name="multiFragmentReference"
                             nameSuffix="contentReference"
@@ -71,11 +71,14 @@
                                 sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
                                 fragmentmodelreference="[/conf/sample-fields/settings/dam/cfm/models/selections,/conf/sample-fields/settings/dam/cfm/models/text-fields]"
                                 name="multiFragmentReference"
-                                renderReadOnly="false"
-                                rootPath="/content/dam/sample-fields">
-                                <granite:data jcr:primaryType="nt:unstructured"/>
+                                renderReadOnly="false">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    mvmaxitems="3"/>
                             </field>
-                            <granite:data jcr:primaryType="nt:unstructured"/>
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                mvmaxitems="3"/>
                         </_x0031_675072971014>
                     </items>
                 </content>

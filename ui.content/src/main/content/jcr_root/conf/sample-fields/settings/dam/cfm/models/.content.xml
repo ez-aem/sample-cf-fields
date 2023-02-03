@@ -8,4 +8,7 @@
     <content-reference/>
     <json-object/>
     <page/>
+    <category-reference/>
+    <product-reference/>
+    <tags/>
 </jcr:root>
