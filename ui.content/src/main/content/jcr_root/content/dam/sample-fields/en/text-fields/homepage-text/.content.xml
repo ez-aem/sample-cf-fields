@@ -7,18 +7,17 @@
     <jcr:content
         cq:name="homepage-text"
         cq:parentPath="/content/dam/sample-fields/en/text-fields"
-        cq:versionCreator="pz@headwire.com"
-        dam:processingId="eb9765fa-d97b-48cd-a6e9-4e042e4ae93c"
-        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.features.json,cqdam.metadata.xml]"
-        dam:processingRequestedDate="{Date}2023-02-02T15:48:24.915Z"
+        dam:processingId="6e5cb64b-0399-472a-9829-4a7b62a2afa2"
+        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cqdam.text.txt,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg,cq5dam.preview.pdf,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2023-02-03T12:55:07.507Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-02-02T15:48:24.902Z"
+        jcr:lastModified="{Date}2023-02-03T12:55:07.480Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Homepage Text"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-02-02T15:48:24.902Z">
+        lastFragmentSave="{Date}2023-02-03T12:55:07.480Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
             jcr:primaryType="nt:unstructured"
@@ -28,9 +27,9 @@
                 jcr:primaryType="nt:unstructured"
                 eMail="sampleFields@example.com"
                 eMail_x0040_LastModified="{Date}2023-02-02T15:23:10.401Z"
-                multiTextArea="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;"
+                multiTextArea="[&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;,&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;,&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;]"
                 multiTextArea_x0040_ContentType="text/html"
-                multiTextArea_x0040_LastModified="{Date}2023-02-02T15:21:39.947Z"
+                multiTextArea_x0040_LastModified="{Date}2023-02-03T12:55:07.209Z"
                 multiTextFields="[Lorem ipsum dolor sit amet.,consectetur adipiscing elit.,ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,Aenean vel elit scelerisque mauris.,Lacinia at quis risus sed vulputate odio ut enim.]"
                 multiTextFields_x0040_LastModified="{Date}2023-02-02T15:16:48.725Z"
                 placeholder_x0040_LastModified="{Date}2023-02-02T15:06:31.451Z"
@@ -67,6 +66,7 @@
                 string_x0040_textField="Lorem ipsum dolor sit amet."
                 string_x0040_uniqueString="Unique String"
                 string_x0040_url="https://www.adobe.com/"
+                stringArray_x0040_multiTextArea="[&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;,&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;,&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xa;]"
                 stringArray_x0040_multiTextFields="[Lorem ipsum dolor sit amet.,consectetur adipiscing elit.,ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,Aenean vel elit scelerisque mauris.,Lacinia at quis risus sed vulputate odio ut enim.]"/>
         </indexedData>
         <metadata
