@@ -7,17 +7,17 @@
     <jcr:content
         cq:name="content-reference"
         cq:parentPath="/content/dam/sample-fields/en/content-references"
-        dam:processingId="ca897a6e-8d84-412a-9b17-499e2e515124"
-        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.text.txt,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg]"
-        dam:processingRequestedDate="{Date}2023-02-03T07:59:40.473Z"
+        dam:processingId="b3fe93ba-580d-41e3-bea5-e6f07a7ead92"
+        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cqdam.text.txt,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cq5dam.preview.pdf,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cq5dam.thumbnail.319.319.png]"
+        dam:processingRequestedDate="{Date}2023-02-06T13:18:40.032Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-02-03T07:59:40.457Z"
+        jcr:lastModified="{Date}2023-02-06T13:18:40.019Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Content Reference"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-02-03T07:59:40.457Z">
+        lastFragmentSave="{Date}2023-02-06T13:18:40.019Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/content-reference"
             jcr:primaryType="nt:unstructured"
@@ -29,7 +29,8 @@
                 audio_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
                 image_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
                 markup_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
-                multiContentReference_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
+                multiContentReference="[/content/dam/sample-fields/assets/sky.jpg,/content/dam/sample-fields/en/fragment-references/text-and-selection]"
+                multiContentReference_x0040_LastModified="{Date}2023-02-06T13:18:39.806Z"
                 pdf_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
                 placeholder_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"
                 plainText_x0040_LastModified="{Date}2023-02-03T07:55:27.511Z"

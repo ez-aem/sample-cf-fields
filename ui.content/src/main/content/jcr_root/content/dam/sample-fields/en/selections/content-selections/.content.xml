@@ -7,6 +7,7 @@
     <jcr:content
         cq:name="content-selections"
         cq:parentPath="/content/dam/sample-fields/en/selections"
+        cq:versionCreator="pz@headwire.com"
         dam:processingId="eff9f4af-96d2-4bff-94c5-da409cf1a513"
         dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json]"
         dam:processingRequestedDate="{Date}2023-02-06T08:33:20.166Z"
