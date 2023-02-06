@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2023-02-03T12:53:41.997Z"
+        cq:lastModified="{Date}2023-02-06T15:31:13.995Z"
         cq:lastModifiedBy="pz@headwire.com"
         cq:scaffolding="/conf/sample-fields/settings/dam/cfm/models/text-fields/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -24,13 +24,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2023-02-03T12:53:41.997Z"
+                    jcr:lastModified="{Date}2023-02-06T15:31:13.995Z"
                     jcr:lastModifiedBy="pz@headwire.com"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
+                        maxGeneratedOrder="21">
                         <_x0031_675071512994
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
@@ -138,6 +138,18 @@
                             listOrder="2"
                             metaType="text-multi"
                             name="plainTextArea"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/multiline"/>
+                        <_x0031_675697454204
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Markdown Text Area"
+                            checked="false"
+                            default-mime-type="text/x-markdown"
+                            listOrder="21"
+                            metaType="text-multi"
+                            name="markdownTextArea"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string/multiline"/>
