@@ -7,17 +7,17 @@
     <jcr:content
         cq:name="homepage"
         cq:parentPath="/content/dam/sample-fields/en/pages"
-        dam:processingId="dd2a4ddd-a810-466d-8416-05edde4fb3e9"
-        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cqdam.text.txt,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cqdam.metadata.xml,cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg]"
-        dam:processingRequestedDate="{Date}2023-02-03T08:05:42.760Z"
+        dam:processingId="a88e9ad0-0c5c-42ed-af8d-653f806daabb"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.preview.pdf,cqdam.machine.metadata.colors.json,cqdam.text.txt,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.319.319.png]"
+        dam:processingRequestedDate="{Date}2023-02-06T09:22:00.752Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-02-03T08:05:42.746Z"
+        jcr:lastModified="{Date}2023-02-06T09:22:00.740Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Homepage"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-02-03T08:05:42.746Z">
+        lastFragmentSave="{Date}2023-02-06T09:22:00.740Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/page"
             jcr:primaryType="nt:unstructured"
@@ -25,8 +25,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                pageContent="[/content/dam/sample-fields/en/tags/homepage-tags,/content/dam/sample-fields/en/text-fields/homepage-text,/content/dam/sample-fields/en/selections/homepage-selections,/content/dam/sample-fields/en/json-objects/homepage-json]"
-                pageContent_x0040_LastModified="{Date}2023-02-03T08:05:42.577Z"/>
+                pageContent="[/content/dam/sample-fields/en/tags/homepage-tags,/content/dam/sample-fields/en/text-fields/homepage-text,/content/dam/sample-fields/en/selections/homepage-selections,/content/dam/sample-fields/en/json-objects/homepage-json,/content/dam/sample-fields/en/fragment-references/text-and-selection]"
+                pageContent_x0040_LastModified="{Date}2023-02-06T09:22:00.583Z"/>
         </data>
         <indexedData jcr:primaryType="nt:unstructured">
             <master

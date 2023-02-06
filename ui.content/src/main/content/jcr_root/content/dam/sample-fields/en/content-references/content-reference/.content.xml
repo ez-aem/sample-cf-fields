@@ -5,7 +5,7 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="a1b66b88-5aff-4336-a3f8-29c0ccd97f0a">
     <jcr:content
-        cq:name="homepage-content-reference"
+        cq:name="content-reference"
         cq:parentPath="/content/dam/sample-fields/en/content-references"
         dam:processingId="ca897a6e-8d84-412a-9b17-499e2e515124"
         dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.text.txt,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg]"
@@ -15,7 +15,7 @@
         jcr:lastModified="{Date}2023-02-03T07:59:40.457Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="Homepage Content Reference"
+        jcr:title="Content Reference"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2023-02-03T07:59:40.457Z">
         <data

@@ -7,18 +7,17 @@
     <jcr:content
         cq:name="content-page"
         cq:parentPath="/content/dam/sample-fields/en/pages"
-        cq:versionCreator="pz@headwire.com"
-        dam:processingId="c2a81f88-a3ec-4050-8a4b-13948e23293a"
-        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.preview.pdf,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cq5dam.zoom.2048.2048.jpeg,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cqdam.text.txt]"
-        dam:processingRequestedDate="{Date}2023-02-03T12:20:15.423Z"
+        dam:processingId="5c470d47-111b-4a10-a027-00bc2e4eea84"
+        dam:processingRenditions="[cq5dam.thumbnail.140.100.png,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json]"
+        dam:processingRequestedDate="{Date}2023-02-06T09:21:37.058Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-02-03T12:20:15.409Z"
+        jcr:lastModified="{Date}2023-02-06T09:21:37.045Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Content Page"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-02-03T12:20:15.409Z">
+        lastFragmentSave="{Date}2023-02-06T09:21:37.045Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/page"
             jcr:primaryType="nt:unstructured"
@@ -26,8 +25,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                pageContent="[/content/dam/sample-fields/en/text-fields/content-text-fields,/content/dam/sample-fields/en/selections/content-selections,/content/dam/sample-fields/en/text-fields/text-in-reference,/content/dam/sample-fields/en/selections/selections-in-reference,/content/dam/sample-fields/en/fragment-references/text-and-selection]"
-                pageContent_x0040_LastModified="{Date}2023-02-03T12:20:15.252Z"/>
+                pageContent="[/content/dam/sample-fields/en/text-fields/content-text-fields,/content/dam/sample-fields/en/selections/content-selections,/content/dam/sample-fields/en/text-fields/text-in-reference,/content/dam/sample-fields/en/selections/selections-in-reference,/content/dam/sample-fields/en/fragment-references/text-and-selection,/content/dam/sample-fields/en/content-references/content-reference]"
+                pageContent_x0040_LastModified="{Date}2023-02-06T09:21:36.888Z"/>
         </data>
         <indexedData jcr:primaryType="nt:unstructured">
             <master
