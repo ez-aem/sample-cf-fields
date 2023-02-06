@@ -1,0 +1,316 @@
+{
+  pageByPath(_path: "/content/dam/sample-fields/en/pages/homepage") {
+    item {
+      _path
+      _variation
+      pageContent {
+        ... on TagsModel {
+          _path
+          _variation
+          singleTag
+          tags
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+            stringArrayMetadata {
+              name
+              value
+            }
+            intMetadata {
+              name
+              value
+            }
+            intArrayMetadata {
+              name
+              value
+            }
+            floatMetadata {
+              name
+              value
+            }
+            floatArrayMetadata {
+              name
+              value
+            }
+            booleanMetadata {
+              name
+              value
+            }
+            booleanArrayMetadata {
+              name
+              value
+            }
+            calendarMetadata {
+              name
+              value
+            }
+            calendarArrayMetadata {
+              name
+              value
+            }
+          }
+          _variations
+          _model {
+            _path
+            title
+          }
+        }
+        ... on TextFieldsModel {
+          _path
+          _variation
+          textField
+          requiredString
+          multiTextFields
+          textArea {
+            html
+            markdown
+            plaintext
+            json
+          }
+          multiTextArea {
+            html
+            markdown
+            plaintext
+            json
+          }
+          plainTextArea {
+            html
+            markdown
+            plaintext
+            json
+          }
+          url
+          eMail
+          regexTest
+          uniqueString
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+            stringArrayMetadata {
+              name
+              value
+            }
+            intMetadata {
+              name
+              value
+            }
+            intArrayMetadata {
+              name
+              value
+            }
+            floatMetadata {
+              name
+              value
+            }
+            floatArrayMetadata {
+              name
+              value
+            }
+            booleanMetadata {
+              name
+              value
+            }
+            booleanArrayMetadata {
+              name
+              value
+            }
+            calendarMetadata {
+              name
+              value
+            }
+            calendarArrayMetadata {
+              name
+              value
+            }
+          }
+          _variations
+          _model {
+            _path
+            title
+          }
+        }
+        ... on SelectionsModel {
+          _path
+          _variation
+          numberField
+          fraction
+          integer
+          multiNumberField
+          lessThanTen
+          betweenTenAndFifteen
+          moreThanOne
+          one
+          two
+          dateAndTimeField
+          dateField
+          timeField
+          dropdownField
+          checkboxField
+          radioButtons
+          uniqueDropdown
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+            stringArrayMetadata {
+              name
+              value
+            }
+            intMetadata {
+              name
+              value
+            }
+            intArrayMetadata {
+              name
+              value
+            }
+            floatMetadata {
+              name
+              value
+            }
+            floatArrayMetadata {
+              name
+              value
+            }
+            booleanMetadata {
+              name
+              value
+            }
+            booleanArrayMetadata {
+              name
+              value
+            }
+            calendarMetadata {
+              name
+              value
+            }
+            calendarArrayMetadata {
+              name
+              value
+            }
+          }
+          _variations
+          _model {
+            _path
+            title
+          }
+        }
+        ... on JsonObjectModel {
+          _path
+          _variation
+          jsonField
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+            stringArrayMetadata {
+              name
+              value
+            }
+            intMetadata {
+              name
+              value
+            }
+            intArrayMetadata {
+              name
+              value
+            }
+            floatMetadata {
+              name
+              value
+            }
+            floatArrayMetadata {
+              name
+              value
+            }
+            booleanMetadata {
+              name
+              value
+            }
+            booleanArrayMetadata {
+              name
+              value
+            }
+            calendarMetadata {
+              name
+              value
+            }
+            calendarArrayMetadata {
+              name
+              value
+            }
+          }
+          _variations
+          _model {
+            _path
+            title
+          }
+        }
+      }
+      _metadata {
+        stringMetadata {
+          name
+          value
+        }
+        stringArrayMetadata {
+          name
+          value
+        }
+        intMetadata {
+          name
+          value
+        }
+        intArrayMetadata {
+          name
+          value
+        }
+        floatMetadata {
+          name
+          value
+        }
+        floatArrayMetadata {
+          name
+          value
+        }
+        booleanMetadata {
+          name
+          value
+        }
+        booleanArrayMetadata {
+          name
+          value
+        }
+        calendarMetadata {
+          name
+          value
+        }
+        calendarArrayMetadata {
+          name
+          value
+        }
+      }
+      _variations
+      _model {
+        _path
+        title
+      }
+    }
+    _references {
+      ... on ImageRef {
+        type
+        _path
+        _authorUrl
+        _publishUrl
+        width
+        height
+        mimeType
+      }
+    }
+  }
+}

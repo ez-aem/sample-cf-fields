@@ -7,17 +7,18 @@
     <jcr:content
         cq:name="text-in-reference"
         cq:parentPath="/content/dam/sample-fields/en/text-fields"
-        dam:processingId="66f58500-25ab-4dda-9e64-6f40f356ed24"
-        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.text.txt,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.metadata.xml,cqdam.machine.metadata.colors.json]"
-        dam:processingRequestedDate="{Date}2023-02-03T07:34:47.764Z"
+        cq:versionCreator="pz@headwire.com"
+        dam:processingId="fdd7a1fb-fe68-4695-be8f-2542a25f13ea"
+        dam:processingRenditions="[cq5dam.preview.pdf,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2023-02-06T08:38:21.390Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-02-03T07:34:47.748Z"
+        jcr:lastModified="{Date}2023-02-06T08:38:21.372Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Text in Reference"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-02-03T07:34:47.748Z">
+        lastFragmentSave="{Date}2023-02-06T08:38:21.372Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
             jcr:primaryType="nt:unstructured"
@@ -25,23 +26,30 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                eMail_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                eMail="example@example.com"
+                eMail_x0040_LastModified="{Date}2023-02-06T08:38:21.214Z"
+                multiTextArea="[&lt;h2>Heading&lt;/h2>&#xa;&lt;p>Lorem &lt;b>ipsum dolor&lt;/b> sit amet\, consectetur &lt;u>adipiscing elit&lt;/u>\, sed do &lt;i>eiusmod tempor&lt;/i> incididunt ut &lt;b>&lt;i>&lt;u>labore et dolore&lt;/u>&lt;/i>&lt;/b> magna aliqua. Aenean vel elit scelerisque mauris. Lacinia at quis risus sed vulputate odio ut enim. Etiam erat velit scelerisque in dictum non consectetur a erat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.&lt;/p>&#xa;,&lt;h2>Heading&lt;/h2>&#xa;&lt;p>Lorem &lt;b>ipsum dolor&lt;/b> sit amet\, consectetur &lt;u>adipiscing elit&lt;/u>\, sed do &lt;i>eiusmod tempor&lt;/i> incididunt ut &lt;b>&lt;i>&lt;u>labore et dolore&lt;/u>&lt;/i>&lt;/b> magna aliqua. Aenean vel elit scelerisque mauris. Lacinia at quis risus sed vulputate odio ut enim. Etiam erat velit scelerisque in dictum non consectetur a erat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.&lt;/p>&#xa;]"
                 multiTextArea_x0040_ContentType="text/html"
-                multiTextArea_x0040_LastModified="{Date}2023-02-03T07:34:47.573Z"
-                multiTextFields_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                multiTextArea_x0040_LastModified="{Date}2023-02-06T08:38:21.210Z"
+                multiTextFields="[Array,Of,Strings]"
+                multiTextFields_x0040_LastModified="{Date}2023-02-06T08:38:21.207Z"
                 placeholder_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                plainTextArea="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&#xa;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&#xa;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 plainTextArea_x0040_ContentType="text/plain"
-                plainTextArea_x0040_LastModified="{Date}2023-02-03T07:34:47.573Z"
-                regexTest_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"
+                plainTextArea_x0040_LastModified="{Date}2023-02-06T08:38:21.213Z"
+                regexTest="Test string"
+                regexTest_x0040_LastModified="{Date}2023-02-06T08:38:21.215Z"
                 requiredString="From Reference"
                 requiredString_x0040_LastModified="{Date}2023-02-03T07:34:47.572Z"
+                textArea="&lt;h2>Heading&lt;/h2>&#xa;&lt;p>Lorem &lt;b>ipsum dolor&lt;/b> sit amet, consectetur &lt;u>adipiscing elit&lt;/u>, sed do &lt;i>eiusmod tempor&lt;/i> incididunt ut &lt;b>&lt;i>&lt;u>labore et dolore&lt;/u>&lt;/i>&lt;/b> magna aliqua. Aenean vel elit scelerisque mauris. Lacinia at quis risus sed vulputate odio ut enim. Etiam erat velit scelerisque in dictum non consectetur a erat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.&lt;/p>&#xa;"
                 textArea_x0040_ContentType="text/html"
-                textArea_x0040_LastModified="{Date}2023-02-03T07:34:47.572Z"
+                textArea_x0040_LastModified="{Date}2023-02-06T08:38:21.210Z"
                 textField="From Reference"
                 textField_x0040_LastModified="{Date}2023-02-03T07:34:47.570Z"
                 uniqueString="From Reference"
                 uniqueString_x0040_LastModified="{Date}2023-02-03T07:34:47.575Z"
-                url_x0040_LastModified="{Date}2023-02-03T07:29:37.081Z"/>
+                url="https://www.adobe.com"
+                url_x0040_LastModified="{Date}2023-02-06T08:38:21.214Z"/>
         </data>
         <indexedData jcr:primaryType="nt:unstructured">
             <master
@@ -50,9 +58,16 @@
                 jcr:uuid="50319f38-7363-4eeb-afbc-d686289a9983"
                 _x0040_string_x0040_model="/conf/sample-fields/settings/dam/cfm/models/text-fields"
                 _x0040_stringArray_x0040_variations="[]"
+                string_x0040_eMail="example@example.com"
+                string_x0040_plainTextArea="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&#xa;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&#xa;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                string_x0040_regexTest="Test string"
                 string_x0040_requiredString="From Reference"
+                string_x0040_textArea="&lt;h2>Heading&lt;/h2>&#xa;&lt;p>Lorem &lt;b>ipsum dolor&lt;/b> sit amet, consectetur &lt;u>adipiscing elit&lt;/u>, sed do &lt;i>eiusmod tempor&lt;/i> incididunt ut &lt;b>&lt;i>&lt;u>labore et dolore&lt;/u>&lt;/i>&lt;/b> magna aliqua. Aenean vel elit scelerisque mauris. Lacinia at quis risus sed vulputate odio ut enim. Etiam erat velit scelerisque in dictum non consectetur a erat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.&lt;/p>&#xa;"
                 string_x0040_textField="From Reference"
-                string_x0040_uniqueString="From Reference"/>
+                string_x0040_uniqueString="From Reference"
+                string_x0040_url="https://www.adobe.com"
+                stringArray_x0040_multiTextArea="[&lt;h2>Heading&lt;/h2>&#xa;&lt;p>Lorem &lt;b>ipsum dolor&lt;/b> sit amet\, consectetur &lt;u>adipiscing elit&lt;/u>\, sed do &lt;i>eiusmod tempor&lt;/i> incididunt ut &lt;b>&lt;i>&lt;u>labore et dolore&lt;/u>&lt;/i>&lt;/b> magna aliqua. Aenean vel elit scelerisque mauris. Lacinia at quis risus sed vulputate odio ut enim. Etiam erat velit scelerisque in dictum non consectetur a erat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.&lt;/p>&#xa;,&lt;h2>Heading&lt;/h2>&#xa;&lt;p>Lorem &lt;b>ipsum dolor&lt;/b> sit amet\, consectetur &lt;u>adipiscing elit&lt;/u>\, sed do &lt;i>eiusmod tempor&lt;/i> incididunt ut &lt;b>&lt;i>&lt;u>labore et dolore&lt;/u>&lt;/i>&lt;/b> magna aliqua. Aenean vel elit scelerisque mauris. Lacinia at quis risus sed vulputate odio ut enim. Etiam erat velit scelerisque in dictum non consectetur a erat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.&lt;/p>&#xa;]"
+                stringArray_x0040_multiTextFields="[Array,Of,Strings]"/>
         </indexedData>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
