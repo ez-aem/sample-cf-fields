@@ -11,5 +11,7 @@
         metadataSchema="System Default"
         postProcessWF="System Default"
         processingProfile="System Default"
-        sourcing="false"/>
+        sourcing="false">
+        <folderThumbnail/>
+    </jcr:content>
 </jcr:root>
