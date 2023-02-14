@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2023-02-01T09:46:44.262Z"
+        cq:lastModified="{Date}2023-02-13T15:47:43.229Z"
         cq:lastModifiedBy="pz@headwire.com"
         cq:scaffolding="/conf/sample-fields/settings/dam/cfm/models/fragment-reference/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -24,13 +24,23 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2023-02-01T09:46:44.262Z"
+                    jcr:lastModified="{Date}2023-02-13T15:47:43.229Z"
                     jcr:lastModifiedBy="pz@headwire.com"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
+                        maxGeneratedOrder="24">
+                        <_x0031_676302921934
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
+                            fieldLabel="Multiple Content Fragment Models Allowed"
+                            listOrder="21"
+                            metaType="tab-placeholder"
+                            name="placeholder"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/tab"/>
                         <_x0031_675071960500
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
@@ -80,6 +90,62 @@
                                 jcr:primaryType="nt:unstructured"
                                 mvmaxitems="3"/>
                         </_x0031_675072971014>
+                        <_x0031_676302955998
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
+                            fieldLabel="Single Content Fragment Models Allowed"
+                            listOrder="22"
+                            metaType="tab-placeholder"
+                            name="placeholder"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/tab"/>
+                        <_x0031_676303016887
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Only Text Fields"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/sample-fields/settings/dam/cfm/models/text-fields"
+                            listOrder="23"
+                            metaType="fragment-reference"
+                            name="onlyTextFields"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/sample-fields/en/text-fields"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                rootPath="/content/dam/sample-fields/en/text-fields"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_676303016887>
+                        <_x0031_676303059281
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Only Selection Fields"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/sample-fields/settings/dam/cfm/models/selections"
+                            listOrder="24"
+                            metaType="fragment-reference"
+                            name="onlySelectionFields"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/sample-fields/en/selections"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="/conf/sample-fields/settings/dam/cfm/models/selections"
+                                name="onlySelectionFields"
+                                renderReadOnly="false"
+                                rootPath="/content/dam/sample-fields/en/selections">
+                                <granite:data jcr:primaryType="nt:unstructured"/>
+                            </field>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_676303059281>
                     </items>
                 </content>
             </cq:dialog>

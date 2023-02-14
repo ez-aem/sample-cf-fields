@@ -7,17 +7,17 @@
     <jcr:content
         cq:name="text-and-selection"
         cq:parentPath="/content/dam/sample-fields/en/fragment-references"
-        dam:processingId="917d9db2-9d98-4bfb-95f4-3a182ecd6467"
-        dam:processingRenditions="[cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cq5dam.preview.pdf,cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg]"
-        dam:processingRequestedDate="{Date}2023-02-03T08:02:28.232Z"
+        dam:processingId="7f6da24a-acb5-4690-a9a4-144e7b4f229e"
+        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cqdam.text.txt,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png]"
+        dam:processingRequestedDate="{Date}2023-02-14T08:08:12.811Z"
         dam:runDMProcess="{Boolean}true"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-02-03T08:02:28.218Z"
+        jcr:lastModified="{Date}2023-02-14T08:08:12.790Z"
         jcr:lastModifiedBy="pz@headwire.com"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Text and Selection"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-02-03T08:02:28.218Z">
+        lastFragmentSave="{Date}2023-02-14T08:08:12.790Z">
         <data
             cq:model="/conf/sample-fields/settings/dam/cfm/models/fragment-reference"
             jcr:primaryType="nt:unstructured"
@@ -27,6 +27,10 @@
                 jcr:primaryType="nt:unstructured"
                 multiFragmentReference="[/content/dam/sample-fields/en/selections/selections-in-reference,/content/dam/sample-fields/en/text-fields/text-in-reference]"
                 multiFragmentReference_x0040_LastModified="{Date}2023-02-03T08:02:28.064Z"
+                onlySelectionFields="[/content/dam/sample-fields/en/selections/selections-item]"
+                onlySelectionFields_x0040_LastModified="{Date}2023-02-14T08:08:12.616Z"
+                onlyTextFields="/content/dam/sample-fields/en/text-fields/text-item"
+                onlyTextFields_x0040_LastModified="{Date}2023-02-14T08:08:12.615Z"
                 singleFragmentReference="/content/dam/sample-fields/en/text-fields/text-in-reference"
                 singleFragmentReference_x0040_LastModified="{Date}2023-02-03T08:02:28.063Z"/>
         </data>
